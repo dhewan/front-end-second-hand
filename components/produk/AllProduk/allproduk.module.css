@@ -1,0 +1,124 @@
+@media screen and (min-width:992px){
+    .ContainerAllProduk{
+    /* position: absolute; */
+    background-color: #7126B5;
+    border: 1px solid #7126B5;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 26px;
+    -webkit-border-radius: 26px;
+    -moz-border-radius: 26px;
+    -ms-border-radius: 26px;
+    -o-border-radius: 26px;
+    padding: 20px 50px;
+    /* margin-left: -250px; */
+    }
+
+    .judulAllProduk label{
+        padding: 10px;
+        font-size: 25px;
+        color: white;
+    }
+
+    .CardAllProduk{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .RowAllProduk{
+        width: fit-content;
+        height: fit-content;
+        background: #FFFFFF;
+        box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.15);
+        border-radius: 4px;
+        margin: 10px;
+        padding: 8px;
+        gap: 8px;
+    }
+
+    .RowAllProduk img{
+        width: 190px;
+        height: 100px;
+    }
+
+    /* Awal Style Deskripsi Produk */
+    .deskripsiAllProduk{
+        padding-top: 10px;
+    }
+    .deskripsiAllProduk label{
+        font-size: 20px;
+    }
+    .deskripsiAllProduk p{
+        font-size: 14px;
+        margin-top: 10px;
+    }
+    .deskripsiAllProduk h4{
+        font-size: 16px;
+        margin-top: 10px;
+    }
+    /* Akhir Style Deskripsi Produk */
+}
+
+@media screen and (max-width:428px){
+    .ContainerAllProduk{
+    border-radius: 26px;
+    -webkit-border-radius: 26px;
+    -moz-border-radius: 26px;
+    -ms-border-radius: 26px;
+    -o-border-radius: 26px;
+    }
+
+    .judulAllProduk{
+        width: 100%;
+        text-align: center;
+        margin-bottom: 10px;
+    }
+    .judulAllProduk label{
+        padding: 10px;
+        font-size: 35px;
+        color: #7126B5;
+    }
+
+    .CardAllProduk{
+        width: 100%;
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        row-gap: 1ch;
+        column-gap: 1ch;
+        padding-left: 0.2ch;
+        /* border: 5px solid yellow; */
+    }
+
+    .RowAllProduk{
+        width: max-content;
+        height: fit-content;
+        background-color: #7126B5;
+        color: #FFFFFF;
+        border: 1px solid #7126B5;
+        box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.15);
+        border-radius: 4px;
+        padding: 10px 10px 0px 10px;
+        text-align: center;
+    }
+
+    .RowAllProduk img{
+        width: 140px;
+        height: 100px;
+    }
+
+    /* Awal Style Deskripsi Produk */
+    .deskripsiAllProduk{
+        padding-top: 10px;
+    }
+    .deskripsiAllProduk label{
+        font-size: 20px;
+    }
+    .deskripsiAllProduk p{
+        font-size: 10px;
+        margin-top: 10px;
+    }
+    .deskripsiAllProduk h4{
+        font-size: 14px;
+        margin-top: 10px;
+    }
+    /* Akhir Style Deskripsi Produk */
+}

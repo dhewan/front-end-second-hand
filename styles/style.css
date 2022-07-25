@@ -1,0 +1,120 @@
+.btn-primary {
+    background: #6a0b81;
+    border-radius: 4px;
+    font-weight: 500;
+    font-size: 16px;
+    color: #ffffff;
+}
+
+.btn-primary:hover {
+    color: #fff;
+    background-color: #671886;
+    border-color: #610877;
+}
+
+.btn-secondary {
+    background: #E2D4F0;
+    box-shadow: 0px 8px 15px rgba(3, 3, 3, 0.3);
+    /* border-color: #610877; */
+    border-color: transparent;
+    border-radius: 8px;
+    font-weight: 500;
+    font-size: 16px;
+    color: rgb(0, 0, 0);
+}
+
+.btn-secondary:hover {
+    background: #710891;
+    color: #ffff;
+}
+
+
+
+.search {
+    width: 444px !important;
+    height: 48px;
+    padding: 14px 64px 14px 24px !important;
+    background-color: #EEEEEE !important;
+}
+
+.radius-primary {
+    border-radius: 16px !important;
+}
+
+.radius-secondary {
+    border-radius: 12px !important;
+}
+
+
+.box-shadow {
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.15);
+}
+
+.fot {
+    margin-top: 15px;
+}
+
+.img-fluid {
+    margin-right: 8px;
+    padding-bottom: 3px;
+    text-align: center;
+}
+
+/* kategori */
+#btn-category h5 {
+    padding-left: 5px;
+    font-weight: bold;
+}
+
+#btn-category .button-group {
+    margin-top: 25px;
+    padding-left: 5px;
+}
+
+#btn-category .hi {
+    background: #E2D4F0;
+    border-radius: 10px;
+    font-weight: 500;
+    font-size: 16px;
+    color: #000000;
+}
+
+#products .produk {
+    cursor: pointer;
+}
+
+
+#btn-category .hi:hover {
+    color: #fff;
+    background-color: #671886;
+    border-color: #610877;
+    border-color: unset;
+}
+
+#btn-category .btn-shadow {
+    box-shadow: 0px 8px 15px rgba(24, 66, 145, 0.3);
+}
+
+#btn-category Button:hover >.active{
+    background-color: #7126B5 !important;
+    color: #fff;
+    border-color: #610877;
+}
+
+/* logo brand-icon */
+.brand-text-icon {
+    padding-top: 40px;
+    font-size: 25px;
+    font-weight: bold;
+    color: #7e0796;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.brand-text-icon:hover {
+    color: #050353;
+}
+
+.text-icon {
+    color: #000102;
+}

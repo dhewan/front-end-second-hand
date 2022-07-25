@@ -1,0 +1,166 @@
+@media screen and (min-width: 992px) {
+    .containerProfil{
+        font-family: 'poppins', sans-serif;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        width: 500px;
+        justify-content: center;
+        margin-top: 100px;
+        margin-bottom: 100px;
+        margin-left: 450px;
+    }
+
+    .dashboardProfil{
+        position: relative;
+        border-radius: 50%;
+        -webkit-border-radius: 50%;
+        -moz-border-radius: 50%;
+        -ms-border-radius: 50%;
+        -o-border-radius: 50%;
+        width: 350px;
+        height: 350px; 
+        /* border: 1px solid green; */
+    }
+
+    .dashboardProfil img{
+        position: relative;
+        border-radius: 50%;
+        -webkit-border-radius: 50%;
+        -moz-border-radius: 50%;
+        -ms-border-radius: 50%;
+        -o-border-radius: 50%;
+        width: 350px;
+        height: 350px; 
+        /* border: 1px solid yellow; */
+    }
+
+    .bodyProfil{
+        /* border: 1px solid green; */
+        width: 800px;
+        margin-left: 50px;
+    }
+
+    .text{
+        text-align: center;
+    }
+
+    .Batas{
+        margin-bottom: 20px;
+        margin-top: -10px;
+    }
+
+    .KontenProfil{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .KontenProfil label{
+        color: #978f80;
+        font-size: 14px;
+    }
+
+    .RowProfil2{
+        margin-left: -100px;
+    }
+
+    .Tombol{
+        width: 100%;
+        height: 40px;
+        color: white;
+        background-color: #26B54E;
+        border: 1px solid #26B54E;
+        cursor: pointer;
+        border-radius: 5px;
+        -webkit-border-radius: 5px;
+        -moz-border-radius: 5px;
+        -ms-border-radius: 5px;
+        -o-border-radius: 5px;
+    }
+
+    .Konten1, .Konten2{
+        padding-bottom: 10px;
+    }
+
+    .textKonten{
+        margin-top: 10px;
+    }
+
+    .garisHori{
+        width: 100%;
+        height: 1px;
+        background-color: black;
+    }
+    .garis .garisVerti{
+        width:  1px;
+        height: 100%;
+        margin-top: -15px;
+        margin-left: 130px;
+        background-color: black;
+    }
+    .KontenProfil .Batas{
+        display: none;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .containerProfil{
+        display: flex;
+        font-family: 'poppins', sans-serif;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 10px;
+    }
+    .dashboardProfil{
+        position: relative;
+        border-radius: 50%;
+        -webkit-border-radius: 50%;
+        -moz-border-radius: 50%;
+        -ms-border-radius: 50%;
+        -o-border-radius: 50%;
+        width: 150px;
+        height: 150px;
+        border: 1px solid green;
+    }
+    .dashboardProfil img{
+        position: relative;
+        border-radius: 50%;
+        -webkit-border-radius: 50%;
+        -moz-border-radius: 50%;
+        -ms-border-radius: 50%;
+        -o-border-radius: 50%;
+        width: 150px;
+        height: 150px;
+        /* border: 1px solid yellow; */
+    }
+    .KontenProfil{
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+        border: 1px solid #ccc;
+        padding: 25px;
+        border-radius: 10px;
+        -webkit-border-radius: 10px;
+        -moz-border-radius: 10px;
+        -ms-border-radius: 10px;
+        -o-border-radius: 10px;
+    }
+    .KontenProfil label{
+        color: #978f80;
+        font-size: 13px;
+    }
+    .Tombol{
+        width: 100%;
+        height: 40px;
+        color: white;
+        background-color: #26B54E;
+        border: 1px solid #26B54E;
+        cursor: pointer;
+        margin-top: 15px;
+        border-radius: 10px;
+        -webkit-border-radius: 10px;
+        -moz-border-radius: 10px;
+        -ms-border-radius: 10px;
+        -o-border-radius: 10px;
+    }
+    .garisHori, .garisVerti{
+        display: none;
+    }
+}

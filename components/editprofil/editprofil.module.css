@@ -1,0 +1,260 @@
+@media screen and (min-width: 992px){
+    .editprofil{
+    font-family: 'poppins', sans-serif;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    margin-top: 50px;
+    margin-left: 50px;
+}
+
+.DashEditProfil{
+    position: relative;
+    width: 350px;
+    height: 350px; 
+    /* border: 1px solid blue; */
+    margin-top: -50px;
+    margin-left: 100px;
+    border-radius: 50%;
+    overflow: hidden;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+
+.DashEditProfil img{
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    width: 350px;
+    height: 350px; 
+}
+
+.DashEditProfil .changeImg{
+    margin-top: -100px;
+}
+
+.BodyEditProfil{
+    position: relative;
+    width: 507px;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: -100px;
+}
+
+.UserEditProfil input{
+    width: 500px;
+    height: 30px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 5px 10px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
+.NamaEditProfil input{
+    width: 500px;
+    height: 30px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    padding: 5px 10px;
+}
+
+.AlamatEditProfil textarea{
+    width: 500px;
+    height: 80px;
+    padding-bottom: 30px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    padding: 5px 10px;
+}
+
+.NoHpEditProfil input{
+    width: 500px;
+    height: 30px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    padding: 5px 10px;
+}
+
+.TanggalEditProfil input{
+    width: 500px;
+    height: 30px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    padding: 5px 10px;
+}
+
+.KotaEditProfil input{
+    width: 500px;
+    height: 30px;
+    margin-top: 5px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    padding: 5px 10px;
+}
+
+.submit{
+    width: 100px;
+    height: 35px;
+    font-size: 14px;
+    color: white;
+    border: 1px solid #26B54E;
+    background-color: #26B54E;
+    cursor: pointer;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
+#file{
+    display: none;
+}
+
+#uploadBtn{
+        height: 40px;
+        width: 100%;
+        position: absolute;
+        left: 50%;
+        bottom: 0;
+        transform: translateX(-50%);
+        -webkit-transform: translateX(-50%);
+        -moz-transform: translateX(-50%);
+        -ms-transform: translateX(-50%);
+        -o-transform: translateX(-50%);
+        text-align: center;
+        background-color: rgba(0, 0, 0, 0.7);
+        color: white;
+        line-height: 30px;
+        font-size: 15px;
+        cursor: pointer;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .editprofil{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        font-family: 'poppins', sans-serif;
+    }
+
+    .DashEditProfil{
+        position: relative;
+        width: 150px;
+        height: 150px;
+        margin-top: 20px;
+        /* border: 1px solid blue; */
+        /* margin-top: -50px;
+        margin-left: 100px; */
+        border-radius: 50%;
+        overflow: hidden;
+        -webkit-border-radius: 50%;
+        -moz-border-radius: 50%;
+        -ms-border-radius: 50%;
+        -o-border-radius: 50%;
+    }
+    .DashEditProfil img{
+        border-radius: 50%;
+        -webkit-border-radius: 50%;
+        -moz-border-radius: 50%;
+        -ms-border-radius: 50%;
+        -o-border-radius: 50%;
+        width: 150px;
+        height: 150px; 
+    }
+
+    .BodyEditProfil{
+        margin-top: 20px;
+        /* border: 1px solid green; */
+        width: 350px;
+        margin-right: 10px;
+        font-size: 10px;
+    }
+    .BodyEditProfil input{
+        width: 100%;
+        height: 35px;
+        border: 1px solid #ccc;
+        margin-top: 10px;
+        border-radius: 5px;
+        padding: 5px;
+        -webkit-border-radius: 5px;
+        -moz-border-radius: 5px;
+        -ms-border-radius: 5px;
+        -o-border-radius: 5px;
+    }
+    .BodyEditProfil textarea{
+        font-family: 'poppins', sans-serif;
+        width: 350px;
+        height: 50px;
+        font-size: 15px;
+        border: 1px solid #ccc;
+        padding: 5px;
+        margin-top: 10px;
+        margin-right: 10px;
+        border-radius: 5px;
+        -webkit-border-radius: 5px;
+        -moz-border-radius: 5px;
+        -ms-border-radius: 5px;
+        -o-border-radius: 5px;
+    }
+    .BodyEditProfil label{
+        display: none;
+    }
+
+    .submit{
+        width: 100%;
+        height: 35px;
+        font-size: 14px;
+        color: white;
+        border: 1px solid #26B54E;
+        background-color: #26B54E;
+        margin-top: 10px;
+        cursor: pointer;
+        border-radius: 5px;
+        -webkit-border-radius: 5px;
+        -moz-border-radius: 5px;
+        -ms-border-radius: 5px;
+        -o-border-radius: 5px;
+    }
+    #file{
+    display: none;
+    }
+    #uploadBtn{
+            height: 40px;
+            width: 100%;
+            position: absolute;
+            left: 50%;
+            bottom: 0;
+            transform: translateX(-50%);
+            -webkit-transform: translateX(-50%);
+            -moz-transform: translateX(-50%);
+            -ms-transform: translateX(-50%);
+            -o-transform: translateX(-50%);
+            text-align: center;
+            background-color: rgba(0, 0, 0, 0.7);
+            color: white;
+            line-height: 30px;
+            font-size: 12px;
+            cursor: pointer;
+        }
+
+}

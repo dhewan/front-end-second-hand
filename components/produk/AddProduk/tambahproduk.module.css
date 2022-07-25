@@ -1,0 +1,85 @@
+.konten{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 40px;
+}
+
+.inputkonten{
+    border-radius: 10px;
+    height: 40px;
+}
+
+.namaproduct{
+    display: flex;
+    flex-direction: column;
+}
+
+.hargaproduct{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.kategoriproduct{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.deskripsiproduct{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.fotoproduct{
+    margin-top: 20px;
+}
+
+.buttonproduct{
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+}
+
+.buttonterbitkan{
+    color: green;
+    background-color: white;
+    border: 2px solid;
+    border-color: green;
+    border-radius: 10px;
+    box-shadow: 1px 1px 1px rgba(0,0,0,0.8); 
+    width: 200px;
+    height: 40px;
+    margin-left: 20px;
+    font-weight: bold;
+}
+
+.buttonpreview{
+    font-weight: bold;
+    color: maroon;
+    background-color: white;
+    border: 2px solid;
+    border-color: maroon;
+    border-radius: 10px;
+    box-shadow: 1px 1px 1px rgba(0,0,0,0.8); 
+    width: 200px;
+}
+
+.button{
+    height: 50px;
+    width: 120px;
+    margin-right: 30px;
+    border: 2px solid maroon;
+    border-radius: 10px;
+    background-color: white;
+}
+
+.button1{
+    width: 120px;
+    border: 1px solid maroon;
+    border-radius: 10px;
+    background-color: green;
+    color: white;
+}

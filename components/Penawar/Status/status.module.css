@@ -1,0 +1,227 @@
+@media screen and (min-width: 992px) {
+    .ModalStatus{
+        position: fixed;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 360px;
+        height: 360px;
+        border: 1px solid #ccc;
+        background-color: #ffffff;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+        padding: 20px;
+        font-size: 14px;
+        border-radius: 10px;
+        -webkit-border-radius: 20px;
+        -moz-border-radius: 10px;
+        -ms-border-radius: 10px;
+        -o-border-radius: 10px;
+        -webkit-transform: translate(-50%, -50%);
+        -moz-transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+        -o-transform: translate(-50%, -50%);
+    }
+
+    .StatusClose{
+        width: 100%;
+        height: max-content;
+        /* border: 1px solid green; */
+        text-align: end;
+    }
+    .StatusClose img{
+        width: 24px;
+        height: 24px;
+    }
+    .StatusClose button{
+        border: none;
+        background: none;
+        cursor: pointer;
+        /* float: right; */
+        /* margin-left: 270px; */
+    }
+
+    .InformasiStatus{
+        /* text-align: center; */
+        font-size: 14px;
+    }
+
+    /* Button Status Berhasil */
+    .StatusTerima{
+        display: flex;
+        flex-direction: row;
+        /* border: 1px solid green; */
+    }
+    .StatusTerima input{
+        margin-bottom: 40px;
+    }
+
+    .StatusBerhasil{
+        font-size: 14px;
+        padding-top: 20px;
+        padding-left: 10px;
+    }
+    .StatusBerhasil p{
+        font-size: 14px;
+        color: #8A8A8A;
+    }
+    /* Button Status Berhasil */
+
+    /* Button Status Batal */
+    .StatusBatal{
+        display: flex;
+        flex-direction: row;
+        margin-top: -20px;
+        /* border: 1px solid green; */
+    }
+    .StatusBatal input{
+        margin-bottom: 40px;
+    }
+
+    .StatusGagal{
+        font-size: 14px;
+        padding-top: 20px;
+        padding-left: 10px;
+    }
+    .StatusGagal p{
+        font-size: 14px;
+        color: #8A8A8A;
+    }
+    /* Button Status Batal */
+
+    .BtnStatusKirim{
+        display: flex;
+        justify-content: center;
+        margin-top: 60px;
+    }
+    .BtnStatusKirim button{
+        width: 360px;
+        height: 30px;
+        color: white;
+        border: 1px solid #8A8A8A;
+        background-color: #8A8A8A;
+        border-radius: 10px;
+        -webkit-border-radius: 10px;
+        -moz-border-radius: 10px;
+        -ms-border-radius: 10px;
+        -o-border-radius: 10px;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    .ModalStatus{
+        position: fixed;
+        bottom: 0%;
+        left: 50%;
+        transform: translate(-50%, 0%);
+        width: 100%;
+        height: fit-content;
+        border: 1px solid #ccc;
+        background-color: #ffffff;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+        padding: 20px;
+        font-size: 14px;
+        border-radius: 10px;
+        -webkit-border-radius: 20px;
+        -moz-border-radius: 10px;
+        -ms-border-radius: 10px;
+        -o-border-radius: 10px;
+        -webkit-transform: translate(-50%, 0%);
+        -moz-transform: translate(-50%, 0%);
+        -ms-transform: translate(-50%, 0%);
+        -o-transform: translate(-50%, 0%);
+    }
+    .StatusClose{
+        width: 100%;
+        height: max-content;
+        /* border: 1px solid green; */
+        text-align: center;
+    }
+    .StatusClose img{
+        width: 24px;
+        height: 24px;
+        display: none;
+    }
+    .StatusClose button{
+        border: none;
+        background: none;
+        cursor: pointer;
+    }
+
+    .ModalClose{
+        width: 60px;
+        height: 6px;
+        margin-top: -20px;
+        background-color: #C4C4C4;
+        border: 1px solid #C4C4C4;
+        border-radius: 20px;
+        -webkit-border-radius: 20px;
+        -moz-border-radius: 20px;
+        -ms-border-radius: 20px;
+        -o-border-radius: 20px;
+    }
+
+    .InformasiStatus{
+        font-size: 14px;
+    }
+
+    /* Button Status Berhasil */
+    .StatusTerima{
+        display: flex;
+        flex-direction: row;
+        /* border: 1px solid green; */
+    }
+    .StatusTerima input{
+        margin-bottom: 40px;
+    }
+
+    .StatusBerhasil{
+        font-size: 14px;
+        padding-top: 20px;
+        padding-left: 10px;
+    }
+    .StatusBerhasil p{
+        font-size: 14px;
+        color: #8A8A8A;
+    }
+    /* Button Status Berhasil */
+
+    /* Button Status Batal */
+    .StatusBatal{
+        display: flex;
+        flex-direction: row;
+        margin-top: -20px;
+        /* border: 1px solid green; */
+    }
+    .StatusBatal input{
+        margin-bottom: 40px;
+    }
+
+    .StatusGagal{
+        font-size: 14px;
+        padding-top: 20px;
+        padding-left: 10px;
+    }
+    .StatusGagal p{
+        font-size: 14px;
+        color: #8A8A8A;
+    }
+    /* Button Status Batal */
+
+    .BtnStatusKirim{
+        display: flex;
+        justify-content: center;
+        margin-top: 10px;
+    }
+    .BtnStatusKirim button{
+        width: 360px;
+        height: 30px;
+        color: white;
+        border: 1px solid #8A8A8A;
+        background-color: #8A8A8A;
+        border-radius: 10px;
+        -webkit-border-radius: 10px;
+        -moz-border-radius: 10px;
+        -ms-border-radius: 10px;
+        -o-border-radius: 10px;
+    }
+}

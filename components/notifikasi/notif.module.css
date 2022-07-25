@@ -1,0 +1,54 @@
+.ContainerNotif{
+    display: flex;
+    font-family: 'poppins', sans-serif;
+    justify-content: end;
+    margin-right: 300px;
+}
+
+.BodyNotif{
+    position: fixed;
+    width: 400px;
+    height: 250px;
+    background-color: #ffffff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+.ColNotif{
+    display: flex;
+    flex-direction: row;
+    padding: 30px 30px 10px 30px;
+}
+
+.ColNotif img{
+    width: 48px;
+    height: 48px;
+    border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+}
+
+.DetailNtofiProduk{
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+}
+.DetailNtofiProduk h4{
+    font-size: 10px;
+    color: #8A8A8A;
+}
+.DetailNtofiProduk label{
+    font-size: 14px;
+}
+
+.DateNotifProduk{
+    margin-left: 50px;
+    font-size: 14px;
+    color: #8A8A8A;
+}

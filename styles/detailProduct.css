@@ -1,0 +1,109 @@
+.section-title-product .product-title p {
+    font-size: 18px;
+}
+
+
+.section-galery-product {
+    margin-bottom: 80px;
+    margin-top: 0px;
+}
+
+.img-big {
+    margin-left: 100px;
+}
+
+.img-big .img-product-big,
+.thumb-img {
+    border: none;
+    padding: 2px;
+    margin: 20px -10px 30px 20px;
+}
+
+.img-big .img-product-big .gambar {
+    max-height: 500px;
+}
+
+
+.section-galery-product .card-thumb {
+    /* background-color: #f4f4f4; */
+    width: 80%;
+    height: 100%;
+}
+
+
+.owl-carousel .owl-stage-outer {
+    padding: 0px 10px 0px 10px;
+}
+
+.section-detail-product .description-product p {
+    font-size: 16px;
+    line-height: 26px;
+    width: 50%;
+}
+
+.section-detail-product .card h3 {
+    color: #1abc9c;
+    font-weight: 500;
+}
+
+.img-box {
+    box-shadow: 0px 8px 15px rgba(7, 7, 7, 0.3);
+    width: 380px;
+}
+
+.img-box2 {
+    box-shadow: 0px 8px 15px rgba(7, 7, 7, 0.3);
+    width: 650px;
+    padding: 30px;
+    border-radius: 10px;
+}
+
+.img-box2 p {
+    margin-top: 20px;
+}
+
+
+.section-product2 .card-product2 {
+    width: 377px;
+    background: #ffffff;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px 2px;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-left: 100px;
+}
+
+.section-product3 .card-product3 {
+    width: 500px;
+    background: #ffffff;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px 2px;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-left: 1px;
+}
+
+.section-product3 .card-product3 .judul-cardproduk p {
+    font-weight: bold;
+    font-size: 20px;
+    padding-top: 10px;
+    margin-bottom: 0px;
+}
+
+.card-product2 .product-name {
+    min-height: 40px;
+}
+
+.card-product .product-name {
+    min-height: 40px;
+}
+
+.card-product .product-name h3 {
+    min-height: 40px;
+    font-weight: bold;
+    font-family: sans-serif;
+}
+
+.card-product2 .product-name h3 {
+    min-height: 40px;
+    font-weight: bold;
+    font-family: sans-serif;
+}

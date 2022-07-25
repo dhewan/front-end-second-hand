@@ -1,0 +1,72 @@
+.card{
+    display: grid;
+    grid-template-areas: 
+    'judul form';
+    background-image: url(/figma.jpg);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+  .form_control{
+      border-radius: 52px;
+      box-sizing : border-box;
+      width: 100%;
+      padding: 10px;
+      font-size: 9pt;
+    }
+  .box{
+      width: 400px;
+      padding: 15px 30px 78px 30px;
+      border-radius: 10px;
+    }
+  .form_label{
+      font-size: 19px;
+      font-family: serif;
+      color: black;
+      font-weight: bold;
+  }
+  .judul{
+      padding-left: 100px;
+      padding-top: 25%;
+      font-size: 60px;
+      font-style: italic;
+      font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+      color: white;
+
+  }
+  .header{
+      color: black;
+      height: 90px;
+      font-size: 30px;
+  }
+  .form{
+      padding-right: 18px;
+      padding-top: 24%;
+      padding-right: 50px;
+      background-color: white;
+      padding-left: 120px;
+      padding-bottom: 19.5%;
+      
+  }
+  .boxform{
+      padding-top: 10%;
+  }
+  .h1{
+    padding-top: 33%;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: white;
+    font-size: 135px;
+  }
+
+  .link{
+    color: blue;
+  }
+  
+  .button1{
+    border-radius: 10px;
+    border-color: white;
+    background-color: maroon;
+    width: 120px;
+    height: 45px;
+    font-size: 15px;
+    color: white;
+  }

@@ -1,0 +1,123 @@
+@media screen and (min-width:992px){
+    .ContainerMinat{
+    /* position: absolute; */
+    background-color: #EB5757;
+    border: 1px solid #EB5757;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 26px;
+    -webkit-border-radius: 26px;
+    -moz-border-radius: 26px;
+    -ms-border-radius: 26px;
+    -o-border-radius: 26px;
+    padding: 20px 50px;
+    }
+
+    .judulProdukMinat label{
+        padding: 10px;
+        font-size: 25px;
+        color: white;
+    }
+
+    .CardProdukMinat{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .RowMinat{
+        width: fit-content;
+        height: fit-content;
+        background: #FFFFFF;
+        box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.15);
+        border-radius: 4px;
+        margin: 10px;
+        padding: 8px;
+        gap: 8px;
+    }
+
+    .RowMinat img{
+        width: 190px;
+        height: 100px;
+    }
+
+    /* Awal Style Deskripsi Produk */
+    .deskripsiProdukMinat{
+        padding-top: 10px;
+    }
+    .deskripsiProdukMinat label{
+        font-size: 20px;
+    }
+    .deskripsiProdukMinat p{
+        font-size: 14px;
+        margin-top: 10px;
+    }
+    .deskripsiProdukMinat h4{
+        font-size: 16px;
+        margin-top: 10px;
+    }
+    /* Akhir Style Deskripsi Produk */
+}
+
+@media screen and (max-width:428px){
+    .ContainerTerjual{
+    border-radius: 26px;
+    -webkit-border-radius: 26px;
+    -moz-border-radius: 26px;
+    -ms-border-radius: 26px;
+    -o-border-radius: 26px;
+    }
+
+    .judulProdukMinat{
+        width: 100%;
+        text-align: center;
+        margin-bottom: 10px;
+    }
+    .judulProdukMinat label{
+        padding: 10px;
+        font-size: 35px;
+        color: #EB5757;
+    }
+
+    .CardProdukMinat{
+        width: 100%;
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        row-gap: 1ch;
+        column-gap: 1ch;
+        padding-left: 0.2ch;
+        /* border: 5px solid yellow; */
+    }
+
+    .RowMinat{
+        width: max-content;
+        height: fit-content;
+        background-color: #EB5757;
+        color: #FFFFFF;
+        border: 1px solid #EB5757;
+        box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.15);
+        border-radius: 4px;
+        padding: 10px 10px 0px 10px;
+        text-align: center;
+    }
+
+    .RowMinat img{
+        width: 140px;
+        height: 100px;
+    }
+
+    /* Awal Style Deskripsi Produk */
+    .deskripsiProdukMinat{
+        padding-top: 10px;
+    }
+    .deskripsiProdukMinat label{
+        font-size: 20px;
+    }
+    .deskripsiProdukMinat p{
+        font-size: 10px;
+        margin-top: 10px;
+    }
+    .deskripsiProdukMinat h4{
+        font-size: 14px;
+        margin-top: 10px;
+    }
+    /* Akhir Style Deskripsi Produk */
+}

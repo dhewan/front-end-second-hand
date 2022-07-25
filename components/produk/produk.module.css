@@ -1,0 +1,387 @@
+.halamanProduk{
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    margin-top: 20px;
+    /* border: 5px solid red; */
+}
+@media screen and (min-width: 992px) {
+    .JudulProduk{
+        display: flex;
+        justify-content: space-between;
+        font-size: 25px;
+        padding: 0px 60px 0px 200px;
+    }
+    
+    .BodyProduk{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .Kategori{
+        width: 220px;
+        height: max-content;
+        padding: 20px 20px 20px 20px;
+        margin-top: 20px;
+        background: #FFFFFF;
+        box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.15);
+        border-radius: 16px;
+        margin-left: 200px;
+        -webkit-border-radius: 16px;
+        -moz-border-radius: 16px;
+        -ms-border-radius: 16px;
+        -o-border-radius: 16px;
+}
+
+    /* Awal Style Kategori */
+    .TambahProduct button{
+        display: flex;
+        width: 100%;
+        height: 40px;
+        justify-content: space-between;
+        align-items: center;
+        background-color: transparent;
+        margin-top: 20px;
+        border: none;
+        cursor: pointer;
+    }
+    .TambahProduct span{
+        font-size: 16px;
+        color: black;
+    }
+    .TambahProduct button:hover{
+        border-radius: 10px;
+        background-color: black;
+        -webkit-border-radius: 10px;
+        -moz-border-radius: 10px;
+        -ms-border-radius: 10px;
+        -o-border-radius: 10px;
+    }
+    .TambahProduct button:hover > span{
+        color: white;
+    }
+    .TambahProduct button:hover > .Add{
+        filter: brightness(0) invert(1);
+        -webkit-filter: brightness(0) invert(1);
+    }
+    .TambahProduct button:hover > .arrowProduk{
+        filter: invert(99%) sepia(99%) saturate(2%) hue-rotate(304deg) brightness(113%) contrast(100%);
+        -webkit-filter: invert(99%) sepia(99%) saturate(2%) hue-rotate(304deg) brightness(113%) contrast(100%);
+    }
+
+    .AllProduk button{
+        width: 100%;
+        margin-top: 20px;
+        display: flex;
+        height: 40px;
+        justify-content: space-between;
+        align-items: center;
+        cursor: pointer;
+        background-color: white;
+        border: none;
+    }
+    .AllProduk span{
+        font-size: 16px;
+        color: #7126B5;
+    }
+    .AllProduk button:hover{
+        border-radius: 10px;
+        background-color: #7126B5;
+        -webkit-border-radius: 10px;
+        -moz-border-radius: 10px;
+        -ms-border-radius: 10px;
+        -o-border-radius: 10px;
+    }
+    .AllProduk button:hover > span{
+        color: white;
+    }
+    .AllProduk button:hover > .box{
+        filter: brightness(0) invert(1);
+        -webkit-filter: brightness(0) invert(1);
+    }
+    .AllProduk button:hover > .arrowProduk{
+        filter: invert(99%) sepia(99%) saturate(2%) hue-rotate(304deg) brightness(113%) contrast(100%);
+        -webkit-filter: invert(99%) sepia(99%) saturate(2%) hue-rotate(304deg) brightness(113%) contrast(100%);
+    }
+    .AllProduk button:focus{
+        border-radius: 10px;
+        background-color: #7126B5;
+        -webkit-border-radius: 10px;
+        -moz-border-radius: 10px;
+        -ms-border-radius: 10px;
+        -o-border-radius: 10px;
+    }
+    .AllProduk button:focus > span{
+        color: white;
+    }
+    .AllProduk button:focus > .box{
+        filter: brightness(0) invert(1);
+        -webkit-filter: brightness(0) invert(1);
+    }
+    .AllProduk button:focus > .arrowProduk{
+        filter: invert(99%) sepia(99%) saturate(2%) hue-rotate(304deg) brightness(113%) contrast(100%);
+        -webkit-filter: invert(99%) sepia(99%) saturate(2%) hue-rotate(304deg) brightness(113%) contrast(100%);
+    }
+
+    .Diminati button{
+        display: flex;
+        margin-top: 20px;
+        width: 100%;
+        height: 40px;
+        justify-content: space-between;
+        align-items: center;
+        background-color: transparent;
+        border: none;
+        cursor: pointer;
+    }
+    .Diminati span{
+        margin-left: -50px;
+        font-size: 16px;
+        color: #EB5757;
+    }
+    .Diminati button:hover{
+        background-color: #EB5757;
+        border-radius: 10px;
+        -webkit-border-radius: 10px;
+        -moz-border-radius: 10px;
+        -ms-border-radius: 10px;
+        -o-border-radius: 10px;
+    }
+    .Diminati button:hover > span{
+        color: white;
+    }
+    .Diminati button:hover > .hati{
+        filter: brightness(0) invert(1);
+        -webkit-filter: brightness(0) invert(1);
+    }
+    .Diminati button:hover > .arrowProduk{
+        filter: brightness(0) invert(1);
+        -webkit-filter: brightness(0) invert(1);
+    }
+    .Diminati button:focus{
+        background-color: #EB5757;
+        border-radius: 10px;
+        -webkit-border-radius: 10px;
+        -moz-border-radius: 10px;
+        -ms-border-radius: 10px;
+        -o-border-radius: 10px;
+    }
+    .Diminati button:focus > span{
+        color: white;
+    }
+    .Diminati button:focus > .hati{
+        filter: brightness(0) invert(1);
+        -webkit-filter: brightness(0) invert(1);
+    }
+    .Diminati button:focus > .arrowProduk{
+        filter: brightness(0) invert(1);
+        -webkit-filter: brightness(0) invert(1);
+    }
+
+    .Terjual span{
+        margin-left: -60px;
+        font-size: 16px;
+        color: #27AE60;
+    }
+    .Terjual button{
+        margin-top: 20px;
+        display: flex;
+        cursor: pointer;
+        height: 40px;
+        justify-content: space-between;
+        align-items: center;
+        background-color: transparent;
+        width: 100%;
+        border: none;
+    }
+    .Terjual button:hover > span{
+        color: white;
+    }
+    .Terjual button:hover{
+        background-color: #27AE60;
+        border-radius: 10px;
+        -webkit-border-radius: 10px;
+        -moz-border-radius: 10px;
+        -ms-border-radius: 10px;
+        -o-border-radius: 10px;
+    }
+    .Terjual button:hover > .dollar{
+        filter: brightness(0) invert(1);
+        -webkit-filter: brightness(0) invert(1);
+    }
+    .Terjual button:hover > .arrowProduk{
+        filter: brightness(0) invert(1);
+        -webkit-filter: brightness(0) invert(1);
+    }
+
+    .Terjual button:focus{
+        background-color: #27AE60;
+        border-radius: 10px;
+        -webkit-border-radius: 10px;
+        -moz-border-radius: 10px;
+        -ms-border-radius: 10px;
+        -o-border-radius: 10px;
+    }
+    .Terjual button:focus > span{
+        color: white;
+    }
+    .Terjual button:focus > .dollar{
+        filter: brightness(0) invert(1);
+        -webkit-filter: brightness(0) invert(1);
+    }
+    .Terjual button:focus > .arrowProduk{
+        filter: brightness(0) invert(1);
+        -webkit-filter: brightness(0) invert(1);
+    }
+
+    /* Akhir Style Kategori */
+    .cardproduk{
+        width: max-content;
+        height: max-content;
+        padding: 20px 50px 0px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .JudulProduk{
+        display: flex;
+        justify-content: space-between;
+        padding-left: 1em;
+        padding-right: 1em;
+        font-size: 16px;
+    }
+    .BodyProduk{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .Kategori{
+        display: flex;
+        overflow: scroll;
+        overflow-x: auto;
+        overflow-y: hidden;
+        padding: 20px 0px 20px 20px;
+    }
+    .Kategori::-webkit-scrollbar {
+        width: 10px;
+    }
+    .Kategori label{
+        display: none;
+    }
+
+    .TambahProduct{
+        margin-right: 20px;
+    }
+    .TambahProduct button{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        width: 200px;
+        height: 40px;
+        background-color: transparent;
+        background-color: black;
+        border: 1px solid white;
+        border-radius: 10px;
+        -webkit-border-radius: 10px;
+        -moz-border-radius: 10px;
+        -ms-border-radius: 10px;
+        -o-border-radius: 10px;
+    }
+    .TambahProduct span{
+        color: white;
+    }
+    .TambahProduct button > .Add{
+        filter: brightness(0) invert(1);
+        -webkit-filter: brightness(0) invert(1);
+    }
+
+    
+    .AllProduk{
+        margin-right: 20px;
+    }
+    .AllProduk button{
+        display: flex;
+        flex-direction: row;
+        background-color: #7126B5;
+        border: 1px solid white;
+        align-items: center;
+        justify-content: space-between;
+        width: 200px;
+        height: 40px;
+        border-radius: 10px;
+        -webkit-border-radius: 10px;
+        -moz-border-radius: 10px;
+        -ms-border-radius: 10px;
+        -o-border-radius: 10px;
+    }
+    .AllProduk span{
+        color: #FFFFFF;
+        font-size: 16px;
+    }
+    
+    .Diminati{
+        margin-right: 20px;
+    }
+    .Diminati button{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        background-color: #EB5757;
+        border: 1px solid #FFFFFF;
+        width: 120px;
+        height: 40px;
+        /* padding: 5px; */
+        border-radius: 10px;
+        -webkit-border-radius: 10px;
+        -moz-border-radius: 10px;
+        -ms-border-radius: 10px;
+        -o-border-radius: 10px;
+    }
+    .Diminati span{
+        color: #FFFFFF;
+        font-size: 16px;
+    }
+
+    .Terjual button{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        background-color: #27AE60;
+        border: 1px solid #FFFFFF;
+        width: 120px;
+        height: 40px;
+        /* padding: 5px; */
+        border-radius: 10px;
+        -webkit-border-radius: 10px;
+        -moz-border-radius: 10px;
+        -ms-border-radius: 10px;
+        -o-border-radius: 10px;
+    }
+    .Terjual span{
+        color: #FFFFFF;
+        font-size: 16px;
+    }
+    .arrowProduk{
+        filter: brightness(0) invert(1);
+        -webkit-filter: brightness(0) invert(1);
+    }
+
+    .AllProduk img{
+        filter: brightness(0) invert(1);
+        -webkit-filter: brightness(0) invert(1);
+    }
+    .Diminati img{
+        filter: brightness(0) invert(1);
+        -webkit-filter: brightness(0) invert(1);
+    }
+    .Terjual img{
+        filter: brightness(0) invert(1);
+        -webkit-filter: brightness(0) invert(1);
+    }
+
+    .cardproduk{
+        width: 100%;
+        padding-bottom: 1ch;
+    }
+}

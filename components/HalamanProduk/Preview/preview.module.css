@@ -1,0 +1,196 @@
+.container{
+    margin-left: 10%;
+    display: flex;
+}
+
+.row1{
+    display: flex;
+    flex-direction: column;
+    margin-top: 40px;
+}
+
+.row2{
+    display: flex;
+    flex-direction: column;
+    margin-top: 40px;
+    margin-right: 180px;
+    margin-left: 20px;
+}
+
+.juduldeskripsi{
+    font-size: 30px;
+    font-weight: bold;
+    padding-top: 15px;
+}
+
+.detaildeskripsi{
+    margin-top: -10px;
+}
+
+.deskripsi{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    margin-right: 23%;
+    border-width: 2px;
+    width: 98%;
+    box-shadow: 2px 2px 2px 2px rgba(0,0,0,0.8);
+    border: 1px solid gray;
+    border-radius: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.judulproduct{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.kategoriproduct{
+    color: grey;
+}
+
+.hargaproduct{
+    font-size: 20px;
+    font-weight: bold;
+}
+.detailproduct{
+    padding-left: 10px;
+    padding-top: 10px;
+}
+.detail{
+    border-style: dashed;
+    border-radius: 10px;
+    border-width: 2px;
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    height: 255px;
+    box-shadow: 2px 2px 2px 2px rgba(0,0,0,0.8);
+    border: 1px solid gray;
+}
+
+.seller{
+    border-radius: 10px;
+    border-width: 5px;
+    display: grid;
+    grid-template-areas: 'gambarseller detailseller';
+    margin-top: 20px;
+    height: 92px;
+    background-color: white;
+    border-color: grey;
+    border-style: outset;
+    box-shadow: 2px 2px 2px 2px rgba(0,0,0,0.8);
+    border: 1px solid gray;
+}
+
+.gambarseller{
+    padding-top: 20px;
+    padding-left: 10px;
+}
+
+.detailseller{
+    padding-right: 100px;
+    padding-top: 15px;
+}
+
+.namaseller{
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.kotaseller{
+    font-size: 12px;
+    color: grey;
+}
+
+.btn{
+    background-color: green;
+    color: white;
+    width: 250px;
+    height: 40px;
+    border-radius: 10px;
+    border-color: white;
+    align-self: center;
+    font-size: 17px;
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.btn2{
+    margin-top: 10px;
+    background-color:white;
+    color: yellowgreen;
+    width: 250px;
+    height: 40px;
+    border-radius: 10px;
+    border-color: yellow;
+    align-self: center;
+    font-size: 17px;
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.productlain{
+    border-radius: 15px;
+    width: 300px;
+    height: 240px;
+    margin-top: 45px;
+    box-shadow: 2px 2px 2px 2px rgba(0,0,0,0.8);
+    border: 1px solid gray;
+    padding-top: 15px;
+}
+
+.judulkonten{
+    font-size: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bold;
+    text-align: center;
+}
+.konten{
+    margin-top: -10px;
+    display: flex;
+    flex-direction: row;
+    margin-left: 10px;
+    margin-right: 10px;
+    width: 250px;
+    height: 180px;
+    justify-content: space-around;
+    text-align: center;
+}
+
+.gambarproduct{
+    padding-top: 5px
+}
+.product1{
+    padding-top: 10px;
+    margin-left: 10px;
+    box-shadow: 1px 1px 1px 1px rgba(0,0,0,0.8);
+    border: 1px solid gray;
+    width: 220px;
+    height: 150px;
+    border-radius: 10px;
+}
+.product2{
+    border-radius: 10px;
+    padding-top: 10px;
+    box-shadow: 1px 1px 1px 1px rgba(0,0,0,0.8);
+    border: 1px solid gray;
+    width: 220px;
+    height: 150px;
+    margin-left: 10px;
+}
+
+.judulproductlain{
+    font-size: 10px;
+    font-weight: bold;
+}
+
+.kategoriproductlain{
+    font-size: 7px;
+    color: gray;
+}
+
+.hargaproductlain{
+    font-size: 10px;
+    font-weight: bold;
+}

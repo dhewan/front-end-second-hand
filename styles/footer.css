@@ -1,0 +1,48 @@
+footer {
+    border-top: 1px solid #e9ecef;
+    margin-top: 50px;
+    padding-top: 30px;
+    padding-left: 30px;
+}
+
+footer .brand-tagline {
+    margin-top: 8px;
+    color: #adb5bd;
+    font-weight: 300;
+}
+
+footer .list-group-item {
+    padding: 0.3125rem 0;
+    border: 0;
+}
+
+footer .list-group-item a,
+span {
+    color: #adb5bd;
+    font-weight: 300;
+    text-decoration: none;
+}
+
+footer .list-group-item a:hover {
+    color: #272c31;
+}
+
+footer .copyrights {
+    margin: 50px 0;
+    font-weight: 300;
+    color: #575151;
+}
+
+.brand {
+    width: 100px;
+    height: 34px;
+}
+
+
+.bg-color-primary {
+    background-color: #4B1979 !important;
+}
+
+footer #brand {
+    padding-left: 1000px;
+}
